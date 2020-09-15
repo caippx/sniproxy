@@ -1,4 +1,4 @@
-module github.com/fangdingjun/sniproxy
+module github.com/caippx/sniproxy
 
 go 1.13
 
