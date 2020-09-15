@@ -1,0 +1,13 @@
+#timeout: 10
+#
+
+# default destination
+# when no SNI name found 
+# or parse TLS HELLO message failed
+default: 127.0.0.1:8443
+
+listen:
+    - 443
+
+forward_rules:
+    "*:443": "*:443"
